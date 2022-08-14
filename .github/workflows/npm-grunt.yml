@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [12.x, 14.x, 16.x, 18x]
     
     steps:
     - uses: actions/checkout@v3
@@ -26,17 +26,7 @@ jobs:
       run: |
         npm install
         grunt
-
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm publish
+    - run: npm ci
+    - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
