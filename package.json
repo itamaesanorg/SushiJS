@@ -1,10 +1,7 @@
 {
   "name": "sushijs",
   "version": "1.0.0",
-  "description": "NextJS TypeScript TailwindCSS Motion Ultimate Framework",
-  "main": "pages/index.tsx"
-  }
-
+  "description": "NextJS TypeScript TailwindCSS Motion Framer Ultimate Framework",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -118,32 +115,20 @@
     ]
   },
   "keywords": [
-    "typescript",
-    "nextjs",
     "tailwindcss",
-    "reactjs",
-    "react",
-    "javascript",
     "template",
-    "framer",
-    "boilerplate",
-    "sushijs",
-    "itamaesan",
-    "fastify",
-    "sentry",
-    "redwoodjs"
+    "radix",
+    "react",
+    "nextjs"
   ],
   "author": {
-    "author": "ITAMAESAN ORG",
     "email": "it@itamaesan.org",
-    "twitter": "itamaesanorg"
+    "name": "ITAMAESAN ORG",
+    "url": "https://itamaesan.org"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/itamaesanorg"
   },
   "homepage": "https://itamaesan.org"
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itamaesanorg/SushiJS.git"
 }
