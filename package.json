@@ -1,9 +1,9 @@
 {
   "name": "sushijs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
   "main": "pages/index.tsx",
-    "scripts": {
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
