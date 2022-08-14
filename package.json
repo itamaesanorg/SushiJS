@@ -1,15 +1,16 @@
 {
   "name": "sushijs",
   "version": "1.0.0",
-  "description": "NextJS TypeScript TailwindCSS Motion Framer Ultimate Framework",
-  "scripts": {
+  "description": " SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
+  "main": "pages/index.tsx",
+    "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "npx eslint . --ext .ts,.tsx",
     "lint:fix": "npx eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write .",
-    "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}\"",
+    "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}",
     "prepare": "husky install",
     "postinstall": "yarn husky install && yarn build",
     "pre-commit": "yarn lint:fix",
@@ -114,21 +115,20 @@
       "last 1 safari version"
     ]
   },
-  "keywords": [
-    "tailwindcss",
-    "template",
-    "radix",
-    "react",
-    "nextjs"
-  ],
-  "author": {
-    "email": "it@itamaesan.org",
-    "name": "ITAMAESAN ORG",
-    "url": "https://itamaesan.org"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itamaesanorg/SushiJS.git"
   },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "typescript",
+    "framer"
+  ],
+  "author": "ITAMAESAN ORG",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itamaesanorg"
+    "url": "https://github.com/itamaesanorg/SushiJS/issues"
   },
-  "homepage": "https://itamaesan.org"
+  "homepage": "https://github.com/itamaesanorg/SushiJS#readme"
 }
