@@ -1,5 +1,5 @@
 {
-  "name": "sushijs.json",
+  "name": "sushijs",
   "version": "1.0.0",
   "description": "NextJS TypeScript TailwindCSS Motion Ultimate Framework",
   "main": "pages/index.tsx"
