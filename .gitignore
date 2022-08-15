@@ -1,5 +1,5 @@
 .DS_Store
 .husky
 .next
-docs
+docs/workflows/1.0.4.md
 node_modules
