@@ -11,4 +11,4 @@ jobs:
       - run: npm install
       - uses: JS-DevTools/npm-publish@v1
         with:
-          auth_token: ${{NODE_AUTH_TOKEN}}
+          auth_token: $NODE_AUTH_TOKEN
