@@ -1,4 +1,4 @@
-name: main.yml
+name: 🍣 Package
 
 on:
   push:
