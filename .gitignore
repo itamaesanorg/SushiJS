@@ -1,3 +1,5 @@
 node_modules
 .next
 .huskty
+components/.DS_Store
+.DS_Store

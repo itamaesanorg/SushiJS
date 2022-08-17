@@ -3,9 +3,6 @@
   "version": "1.7.0",
   "description": " SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
   "main": "pages/index.tsx",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@itamaesanorg/sushijs"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,8 +14,7 @@
     "prepare": "husky install",
     "postinstall": "yarn husky install && yarn build",
     "pre-commit": "yarn lint:fix",
-    "pre-push": "yarn check-format",
-    "test": "jest"
+    "pre-push": "yarn check-format"
   },
   "prettier": {
     "singleQuote": true,
@@ -84,6 +80,7 @@
     }
   },
   "dependencies": {
+    "@segment/in-eu": "^0.3.0",
     "eslint-config-prettier": "^8.5.0",
     "framer-motion": "^7.1.0",
     "next": "^12.2.3",
@@ -134,8 +131,5 @@
   "bugs": {
     "url": "https://github.com/itamaesanorg/SushiJS/issues"
   },
-  "homepage": "https://github.com/itamaesanorg/SushiJS#readme",
-  "directories": {
-    "lib": "lib"
-  }
+  "homepage": "https://github.com/itamaesanorg/SushiJS#readme"
 }

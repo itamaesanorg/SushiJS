@@ -72,6 +72,13 @@ export default function Container(props: any) {
               </a>
             </Link>
           </div>
+          <div className='flex flex-row gap-1 text-tertiary'>
+          <Link href='https://demo-01.sushijs.com/'>
+            <a className='hover:text-primary transition-all cursor-pointer'>
+              Real Business Case
+            </a>
+          </Link>
+        </div>
           <div className='flex flex-row items-center space-x-4'>
             <a
               href='https://github.com/itamaesanorg/'

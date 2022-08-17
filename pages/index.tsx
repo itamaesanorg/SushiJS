@@ -7,7 +7,7 @@ export default function Home() {
       <Container>
         <div className='flex flex-col items-center justify-center inset-0'>
           <BigText
-            slides={['TypeScript.', 'NextJS.', 'TailwindCSS.', 'Framer.']}
+            slides={['TypeScript', 'NextJS', 'EU-Privacy', 'TailwindCSS', 'Framer &', 'soon Prisma']}
           />
         </div>
       </Container>

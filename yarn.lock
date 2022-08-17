@@ -154,6 +154,13 @@
   "resolved" "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.3.tgz"
   "version" "1.1.3"
 
+"@segment/in-eu@^0.3.0":
+  "integrity" "sha512-np6ves6pLi1nkKjQHXk3FBQJmu+C7Gs6n3UYM0TzHsIdZOz1Cfu636cuc+iidBRfE6S+3w0W8AD7F4hpicuUnw=="
+  "resolved" "https://registry.npmjs.org/@segment/in-eu/-/in-eu-0.3.0.tgz"
+  "version" "0.3.0"
+  dependencies:
+    "jstz" "^2.0.0"
+
 "@swc/helpers@0.4.3":
   "integrity" "sha512-6JrF+fdUK2zbGpJIlN7G3v966PQjyx/dPt1T9km2wj+EUBqgrxCk3uX4Kct16MIm9gGxfKRcfax2hVf5jvlTzA=="
   "resolved" "https://registry.npmjs.org/@swc/helpers/-/helpers-0.4.3.tgz"
@@ -1413,6 +1420,11 @@
   "version" "1.0.1"
   dependencies:
     "minimist" "^1.2.0"
+
+"jstz@^2.0.0":
+  "integrity" "sha512-8hfl5RD6P7rEeIbzStBz3h4f+BQHfq/ABtoU6gXKQv5OcZhnmrIpG7e1pYaZ8hS9e0mp+bxUj08fnDUbKctYyA=="
+  "resolved" "https://registry.npmjs.org/jstz/-/jstz-2.1.1.tgz"
+  "version" "2.1.1"
 
 "jsx-ast-utils@^2.4.1 || ^3.0.0", "jsx-ast-utils@^3.2.1":
   "integrity" "sha512-HDAyJ4MNQBboGpUnHAVUNJs6X0lh058s6FuixsFGP7MgJYpD6Vasd6nzSG5iIfXu1zAYlHJ/zsOKNlrenTUBnw=="
