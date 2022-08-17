@@ -1,5 +1,5 @@
-import BigText from 'bento/BigText'
-import Container from 'bento/Container'
+import BigText from 'components/BigText'
+import Container from 'components/Container'
 
 export default function Home() {
   return (

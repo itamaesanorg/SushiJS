@@ -1,5 +1,3 @@
-.DS_Store
-.husky
-.next
-docs
 node_modules
+.next
+.huskty
