@@ -46,7 +46,9 @@ export default function BigText({ slides }: BigTextProps) {
                   'decoration-clone bg-clip-text text-transparent bg-gradient-to-r',
                   index === 0 ? 'from-red-400 via-blue-500 to-pink-500' : '',
                   index === 1 ? 'from-green-400 via-pink-500 to-gray-500' : '',
-                  index === 2 ? 'from-blue-400 via-green-500 to-yellow-500' : '',
+                  index === 2
+                    ? 'from-blue-400 via-green-500 to-yellow-500'
+                    : '',
                   index === 3 ? 'from-pink-400 via-gray-500 to-red-500' : '',
                   index === 4 ? 'from-green-400 via-pink-500 to-gray-500' : '',
                   index === 5 ? 'from-blue-400 via-green-500 to-yellow-500' : ''
