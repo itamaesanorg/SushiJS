@@ -1,6 +1,6 @@
 import BigText from 'bento/BigText'
 import Container from 'bento/Container'
-import Bottom from 'bento/bottom'
+import Bottom from 'bento/Bottom'
 
 export default function Home() {
   return (
