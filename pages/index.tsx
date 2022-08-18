@@ -1,5 +1,6 @@
-import BigText from 'components/BigText'
-import Container from 'components/Container'
+import BigText from 'bento/BigText'
+import Container from 'bento/Container'
+import Bottom from 'bento/bottom'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           />
         </div>
       </Container>
+      <Bottom />
     </>
   )
 }
