@@ -9,6 +9,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 # Project Organizer
 
 - [Features](#features)
+- [npm](#npm)
 - [HowTo](#HowTo)
 - [Getting started](#getting-started)
 - [License](#license)
@@ -24,6 +25,10 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     📱 Responsive Nav
     🍱 Easy, git clone & npm install/run
     🎉 Folder organized structure
+
+## npm
+
+    npm i @itamaesanorg/sushijs
 
 ## HowTo
 
