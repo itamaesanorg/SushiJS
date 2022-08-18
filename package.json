@@ -1,5 +1,5 @@
 {
-  "name": "sushis",
+  "name": "@itamaesanorg/sushijs",
   "version": "1.7.2",
   "private": false,
   "description": " SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
