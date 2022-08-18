@@ -1,3 +1,5 @@
+![SUSHIJS ITAMAESAN FRAMEWORK NEXTJ TYPESCRIPT TAILWINDCSS PRISMA FRAMER GITHUB WALLPAPER](https://user-images.githubusercontent.com/5947268/185244272-494ac434-ef33-413b-a530-51a97b6d97bf.png)
+
 # SushiJS
 
 SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools!
