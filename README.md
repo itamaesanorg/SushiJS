@@ -16,6 +16,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 - [Getting started](#getting-started)
 - [License](#license)
 - [We run on](#we-run-on)
+- [Structure](#structure)
 
 ## Features
 
@@ -161,50 +162,50 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     
 ## Structure
 
-        SushiJS
-        +---bento
-        |   +---Appbar
-        |   +---Arubamu
-        |   +---Bento
-        |   +---BigText
-        |   +---Bijutsukan
-        |   +---Bottom
-        |   +---Burando
-        |   +---Container
-        |   +---Do
-        |   |   +---Case-Study-Clientes
-        |   |   |   \---Brands
-        |   |   +---Case-Study-Motor
-        |   |   |   +---Case-Study-Motor-Brands
-        |   |   |   \---Case-Study-Motor-Images
-        |   |   \---Case-Study-Peluqueria
-        |   |       +---Case-Study-Peluqueria-Brands
-        |   |       \---Case-Study-Peluqueria-Images
-        |   +---Footer
-        |   +---Izakaya
-        |   +---Meta
-        |   +---Page
-        |   +---Sabisu
-        |   |   +---Nuestros-Servicios-Eventos-Imagen
-        |   |   +---Nuestros-Servicios-Ferias-Congresos
-        |   |   +---Nuestros-Servicios-InStore
-        |   |   +---Nuestros-Servicios-Otros
-        |   |   +---Nuestros-Servicios-Street-Marketing
-        |   |   \---Nuestros-Servicios-Uniformes
-        |   +---Section
-        |   +---ShashinArubamu
-        |   +---Sushisho
-        |   +---SushishoUsed
-        |   +---Sushiten
-        |   +---SushitenUsed
-        |   \---Tekisuto
-        +---lib
-        +---pages
-        |   \---api
-        +---public
-        |   +---fonts
-        |   \---static
-        |       \---favicons
-        \---styles
+    SushiJS
+    +---bento
+    |   +---01 Sushisho
+    |   +---02 SushishoUsed
+    |   +---03 Sushiten
+    |   +---04 SushitenUsed
+    |   +---05 Bento
+    |   +---06 Arubamu
+    |   +---07 Do
+    |   |   +---Case-Study-Clientes
+    |   |   |   \---Brands
+    |   |   +---Case-Study-Motor
+    |   |   |   +---Case-Study-Motor-Brands
+    |   |   |   \---Case-Study-Motor-Images
+    |   |   \---Case-Study-Peluqueria
+    |   |       +---Case-Study-Peluqueria-Brands
+    |   |       \---Case-Study-Peluqueria-Images
+    |   +---08 Bijutsukan
+    |   +---09 Burando
+    |   +---10 Container
+    |   +---11 Izakaya
+    |   +---12 Sabisu
+    |   |   +---Nuestros-Servicios-Eventos-Imagen
+    |   |   +---Nuestros-Servicios-Ferias-Congresos
+    |   |   +---Nuestros-Servicios-InStore
+    |   |   +---Nuestros-Servicios-Otros
+    |   |   +---Nuestros-Servicios-Street-Marketing
+    |   |   \---Nuestros-Servicios-Uniformes
+    |   +---13 ShashinArubamu
+    |   +---14 Tekisuto
+    |   +---15 Footer
+    |   +---16 Appbar
+    |   +---17 BigText
+    |   +---18 Bottom
+    |   +---19 Meta
+    |   +---20 Section
+    |   \---21 Page
+    +---lib
+    +---pages
+    |   \---api
+    +---public
+    |   +---fonts
+    |   \---static
+    |       \---favicons
+    \---styles
 
 
