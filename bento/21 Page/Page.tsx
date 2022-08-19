@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Appbar from 'bento/Nugget'
-import Bottom from 'bento/Bottom'
+import Appbar from 'bento/16 Appbar'
+import Bottom from 'bento/18 Bottom'
 
 interface Props {
 	title?: string
