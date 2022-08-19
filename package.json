@@ -1,6 +1,6 @@
 {
   "name": "sushis",
-  "version": "1.9.4",
+  "version": "1.9.5",
   "description": "SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools.",
   "main": "pages/index.tsx",
   "scripts": {
@@ -12,7 +12,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}",
     "prepare": "husky install",
-    "postinstall": "npm husky install && npm build",
+    "postinstall": "npm install husky && npm build",
     "pre-commit": "yarn lint:fix",
     "pre-push": "yarn check-format"
   },
