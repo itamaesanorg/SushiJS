@@ -12,7 +12,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --list-different \"./**/*.{md,mdx,ts,js,tsx,jsx}",
     "prepare": "husky install",
-    "postinstall": "yarn husky install && yarn build",
+    "postinstall": "npm husky install && npm build",
     "pre-commit": "yarn lint:fix",
     "pre-push": "yarn check-format"
   },
