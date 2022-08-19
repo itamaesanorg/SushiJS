@@ -58,25 +58,25 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     |   🍱---05 Bento  <-- Welcome text and description SuhshiJS Bento
     |   🍱---06 Arubamu  <-- Cards Images SuhshiJS Bento
     |   🍱---07 Do  <-- Case Study Part SuhshiJS Bento
-    |   |   +---Case-Study-Clientes
-    |   |   |   \---Brands
-    |   |   +---Case-Study-Motor
-    |   |   |   +---Case-Study-Motor-Brands
-    |   |   |   \---Case-Study-Motor-Images
-    |   |   \---Case-Study-Peluqueria
-    |   |       +---Case-Study-Peluqueria-Brands
-    |   |       \---Case-Study-Peluqueria-Images
+    |   |   ⬜️---Case-Study-Clientes
+    |   |   |   ⬛️---Brands
+    |   |   🔲---Case-Study-Motor
+    |   |   |   ⬛️---Case-Study-Motor-Brands
+    |   |   |   ⬛️---Case-Study-Motor-Images
+    |   |   ⬜️---Case-Study-Peluqueria
+    |   |       ⬛️---Case-Study-Peluqueria-Brands
+    |   |       ⬛️---Case-Study-Peluqueria-Images
     |   🍱---08 Bijutsukan  <-- Our history SuhshiJS Bento
     |   🍱---09 Burando  <-- Company logos for slider SuhshiJS Bento
     |   🍱---10 Container  <-- The famous container SuhshiJS Bento
     |   🍱---11 Izakaya  <-- Toggle dark mode SuhshiJS Bento
     |   🍱---12 Sabisu  <-- Our services pasges content SuhshiJS Bento
-    |   |   +---Nuestros-Servicios-Eventos-Imagen
-    |   |   +---Nuestros-Servicios-Ferias-Congresos
-    |   |   +---Nuestros-Servicios-InStore
-    |   |   +---Nuestros-Servicios-Otros
-    |   |   +---Nuestros-Servicios-Street-Marketing
-    |   |   \---Nuestros-Servicios-Uniformes
+    |   |   ⬜️---Nuestros-Servicios-Eventos-Imagen
+    |   |   🔲---Nuestros-Servicios-Ferias-Congresos
+    |   |   ⬜️---Nuestros-Servicios-InStore
+    |   |   🔲---Nuestros-Servicios-Otros
+    |   |   ⬜️---Nuestros-Servicios-Street-Marketing
+    |   |   🔲---Nuestros-Servicios-Uniformes
     |   🍱---13 ShashinArubamu  <-- Like Arubamu but more modern SushiJS Bento
     |   🍱---14 Tekisuto  <-- text .md files here SushiJS Bento
     |   🍱---15 Footer  <-- Fotter SushiJS Bento
