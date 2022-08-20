@@ -15,6 +15,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 - [Getting started](#getting-started)
 - [License](#license)
 - [We run on](#we-run-on)
+- [Fix](#Fix)
 
 ## Features
 
@@ -128,4 +129,8 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 
     Vercel 🍣 Thanks Vercel if you read that!
 
+## Fix
+
+    😍 Before dealing with the deploy please take while to read this for 100% optimization.
+    [Here are posible steps before](https://github.com/itamaesanorg/edu)
 
