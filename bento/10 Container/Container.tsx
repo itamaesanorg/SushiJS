@@ -75,7 +75,28 @@ export default function Container(props: any) {
           <div className='flex flex-row gap-1 text-tertiary'>
             <Link href='https://demo-01.sushijs.com/'>
               <a className='hover:text-primary transition-all cursor-pointer'>
-                Real Business Case
+                Case Study
+              </a>
+            </Link>
+          </div>
+          <div className='flex flex-row gap-1 text-tertiary'>
+            <Link href='https://wri.sushijs.com/'>
+              <a className='hover:text-primary transition-all cursor-pointer'>
+                Wri Framework
+              </a>
+            </Link>
+          </div>
+          <div className='flex flex-row gap-1 text-tertiary'>
+            <Link href='https://giveawaytool.sushijs.com/'>
+              <a className='hover:text-primary transition-all cursor-pointer'>
+                Giveaways tool
+              </a>
+            </Link>
+          </div>
+          <div className='flex flex-row gap-1 text-tertiary'>
+            <Link href='https://github.com/itamaesanorg/How-To-NextJS/'>
+              <a className='hover:text-primary transition-all cursor-pointer'>
+                Learn NextJS
               </a>
             </Link>
           </div>

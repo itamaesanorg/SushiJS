@@ -42,22 +42,17 @@ export default function BigText({ slides }: BigTextProps) {
               </span>
 
               <span
-                className={classNames(
-                  'decoration-clone bg-clip-text text-transparent bg-gradient-to-r',
+                className={classNames( 'decoration-clone bg-clip-text text-transparent bg-gradient-to-r',
                   index === 0 ? 'from-blue-600 via-blue-400 to-blue-600' : '',
                   index === 1 ? 'from-gray-600 via-yellow-400 to-gray-600' : '',
-                  index === 2
-                    ? 'from-gray-600 via-blue-400 to-yellow-600'
-                    : '',
+                  index === 2 ? 'from-gray-600 via-blue-400 to-yellow-600' : '',
                   index === 3 ? 'from-blue-300 via-blue-500 to-blue-300' : '',
                   index === 4 ? 'from-gray-200 via-green-500 to-gray-600' : '',
                   index === 5 ? 'from-gray-500 via-pink-500 to-gray-500' : '',
-                  index === 6
-                    ? 'from-blue-400 via-green-500 to-yellow-500'
-                    : '',
-
-                    index === 7 ? 'from-gray-500 via-pink-500 to-gray-500' : ''
-                    )}
+                  index === 6 ? 'from-blue-600 via-blue-400 to-blue-600' : '',
+                  index === 7 ? 'from-blue-400 via-green-500 to-yellow-500' : '',
+                  index === 8 ? 'from-gray-500 via-pink-500 to-gray-500' : ''
+                  )}
               >
                 {text}
               </span>

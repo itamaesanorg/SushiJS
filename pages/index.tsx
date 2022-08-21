@@ -14,8 +14,9 @@ export default function Home() {
               'EU-Privacy',
               'TailwindCSS',
               'Framer &',
-              'Documented',
-              'Structured &',
+              'npm i wri',
+              'npm i sorteo',
+              'npm i sushis',
               'soon Prisma',
             ]}
           />
