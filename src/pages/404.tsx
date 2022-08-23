@@ -2,7 +2,7 @@ import CoolErrorExport from 'src/common/components/elements/02 Body/20 CoolError
 import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
 import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'
 import Footer from 'src/common/components/elements/03 Footer/25 Footer'
-import Meta from 'src/uncommon/components/elements/02 404 Error/00 Header/00 Meta'
+import Meta from 'src/common/components/elements/00 Header/00 Meta'
 
 
 export default function Home() {
