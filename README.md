@@ -189,7 +189,7 @@ Take a look into the following directory structure:
     ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
     ▒   ▒   ▒       ▒       ⏲-----🍚 Arubamu.tsx
     ▒   ▒   ▒       ⬜️---03 Footer
-    ▒   ▒   ▒           ⬛️---25 Footer
+    ▒   ▒   ▒       ▒   ⬛️---25 Footer
     ▒   ▒   ▒       ▒       🐟-----🥣 index.ts
     ▒   ▒   ▒       ▒       ⏲-----🍚 Footer.tsx
     ▒   ▒   🥓---hooks
@@ -203,6 +203,19 @@ Take a look into the following directory structure:
     ▒       🥓---api
     ▒           🔲---authAPI
     ▒           🔲---helloAPI
+    ▒   🎋---uncommon
+    ▒   ▒   🥓---components
+    ▒   ▒   ▒   🔲elementsbypage
+    ▒   ▒   ▒       ⬜️---01 Home
+    ▒   ▒   ▒       ▒   ⬛️---00 Header
+    ▒   ▒   ▒       ▒   ⬛️---01 Head
+    ▒   ▒   ▒       ▒   ⬛️---02 Body
+    ▒   ▒   ▒       ▒   ⬛️---03 Footer    
+    ▒   ▒   ▒       ⬜️---02 404
+    ▒   ▒   ▒       ▒   ⬛️---00 Header
+    ▒   ▒   ▒       ▒   ⬛️---01 Head
+    ▒   ▒   ▒       ▒   ⬛️---02 Body
+    ▒   ▒   ▒       ▒   ⬛️---03 Footer    
     🔪---static
     ▒   🎋---favicons
     🔪---styles
