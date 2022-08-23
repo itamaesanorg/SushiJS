@@ -1,4 +1,4 @@
-import CoolErrorExport from 'src/common/components/elements/02 Body/24 CoolError404Exporter'
+import CoolErrorExport from 'src/common/components/elements/02 Body/20 CoolError404Exporter'
 import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
 import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'
 import Footer from 'src/common/components/elements/03 Footer/25 Footer'

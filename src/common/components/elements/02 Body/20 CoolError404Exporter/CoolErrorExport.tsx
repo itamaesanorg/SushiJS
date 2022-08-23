@@ -1,4 +1,4 @@
-import CoolError from 'src/common/components/elements/02 Body/23 CoolError404'
+import CoolError from 'src/common/components/elements/02 Body/19 CoolError404'
 
 export default function Home() {
   return (
