@@ -1,1 +1,1 @@
-export { default } from './SushishoUsed'
+export { default } from './SushitenUsed'
