@@ -15,6 +15,8 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 
 - [Main Features](#Main-Features)
 - [Agile in NextJS](#Agile-in-NextJS)
+- [Introduction to Common Internet Language also CIL](#Introduction-to-Common-Internet-Language-also-CIL)
+- [Code Internet Language in a real case use](#Code-Internet-Language-in-a-real-case-use)
 - [NRNx2 Agile by ITAMAESAN](#NRNx2-Agile-by-ITAMAESAN)
 - [Project Management System](#Project-Management-System)
 - [Features](#Features)
@@ -68,6 +70,88 @@ Inside this folders you will encounter a basic folder:
     - 03 Footer
 
 In every page, that is the reason why we have created the "uncommon" folder, it is not a folder you will use everyday, it's uncommonly to use, but is there in case you need for example, to create a specific component, for a specific page for: testing purpouse, SEO or a specific component as mentioned before, like a custome menu.
+
+- [Back to top 🔼](#Project-Organizer)
+
+
+## Introduction to Common Internet Language also CIL
+
+Code Internet Language also CIL defined and term designed by ITAMAESAN from Miguel Gargallo in Andorra La Vella, Andorra, is to enumarate folders into a web dynamic project, to ensure a faster, reliable and efficient identification for:
+
+    - Fast Error enclave communication.
+    - Fast Error identification
+    - Easy Dev to Dev communication language
+    - Efficient shortener name of high paths of files
+    
+eg
+
+    -   ./src/common/components/elements/02 Body/03 Carrousel/index.ts:1:10
+    
+it converts into CIL, the ans is:
+    
+   -    C0203 or C-02/03
+       
+If we see the folder Strucuture:
+
+🔪---src
+    ▒   🎋---app
+    ▒   ▒   🥓---components
+    ▒   ▒   🥓---styles
+    ▒   🎋---common 👈👈👈 HERE FIRST REFERENCE ID FROM CIL
+    ▒   ▒   🥓---components
+    ▒   ▒   ▒   🔲elements
+    ▒   ▒   ▒       ⬜️---00 Header
+    ▒   ▒   ▒       ▒   ⬛️---00 Meta
+    ▒   ▒   ▒       ⬜️---01 Head
+    ▒   ▒   ▒       ▒   ⬛️---01 Menu
+    ▒   ▒   ▒       ▒   ⬛️---02 SecondaryMenu
+    ▒   ▒   ▒       ⬜️---02 Body 👈👈👈 HERE SECOND REFERENCE ID FROM CIL
+    ▒   ▒   ▒       ▒   ⬛️---03 Carrousel 👈👈👈 HERE THIRD REFERENCE ID FROM CIL
+    ▒   ▒   ▒       ⬜️---03 Footer
+    ▒   ▒   ▒       ▒   ⬛️---04 Legal
+    ▒   ▒   ▒       ▒   ⬛️---05 TermsAndConditions
+    ▒   ▒   🥓---hooks
+    ▒   ▒   🥓---types
+    ▒   ▒   🥓---utils
+    ▒   🎋---modules
+    ▒   ▒   🥓---auth
+    ▒   🎋---pages
+    ▒       🥓---api
+    ▒   🎋---uncommon
+    ▒   ▒   🥓---components
+    ▒   ▒   ▒   🔲elementsbypage
+    ▒   ▒   ▒       ⬜️---01 Home
+    ▒   ▒   ▒       ▒   ⬛️---00 Header
+    ▒   ▒   ▒       ▒   ⬛️---01 Head
+    ▒   ▒   ▒       ▒   ⬛️---02 Body
+    ▒   ▒   ▒       ▒   ⬛️---03 Footer    
+    ▒   ▒   ▒       ⬜️---02 404
+    ▒   ▒   ▒       ▒   ⬛️---00 Header
+    ▒   ▒   ▒       ▒   ⬛️---01 Head
+    ▒   ▒   ▒       ▒   ⬛️---02 Body
+    ▒   ▒   ▒       ▒   ⬛️---03 Footer    
+
+You will notice, there is no error identifyn between a common and an ucommon component.
+This how at SushiJS we solved many problems, making quicker, easier and common understandable, between devs, and non devs, also PM who knows to code but do need to know how the folder file system strcututire is, why and how to arrive to their destination.
+
+- [Back to top 🔼](#Project-Organizer)
+
+
+# Code Internet Language in a real case use.
+
+We use 00 01 02 03 and many more identifications to locate so fast, efficient and reliable an error when is higlighted on the compile, server or in this case, VERCEL.
+
+![image](https://user-images.githubusercontent.com/5947268/186480899-6200dc29-5b22-4fbc-a463-e547f4d2e63b.png)
+
+As you may see in this picture,
+
+        ./src/common/components/elements/02 Body/27 Carrousel/index.ts:1:10
+        
+If we looked deeper:
+
+        ./...common/.../02...27...
+
+Here is the reference: C0227 or also C-02/27, where the error is being easely to remember, anotate on your Agile tools and pas throught the notes into devs to fix ASAP, with an easy message, "fix please C0227", here is where we introduce the Code Internet Language also CIL.
 
 - [Back to top 🔼](#Project-Organizer)
 
