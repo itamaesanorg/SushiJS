@@ -81,7 +81,7 @@ Code Internet Language also CIL defined and term designed by ITAMAESAN from Migu
     - Fast Error enclave communication.
     - Fast Error identification
     - Easy Dev to Dev communication language
-    - Efficient shortener name of high paths of files
+    - Efficient shortened  name of high paths of files
     
 eg
 
