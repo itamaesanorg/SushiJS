@@ -6,8 +6,6 @@ SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agi
 
 SushiJS, está programado en Typescript a través de la tecnología NextJS, TailwindCSS con Framer, es un Framework basado en Agile. Intruye NRNx2, una evolución de la estructura de carpetas del subsistema Next Right Now y Agile y la metodología de desarrollo. Hace que cualquiera entienda la estructura de carpetas. Una nueva estructura "modular" de carpetas revolucionaria y evolucionada, desarrollada en una semana (1 semana exactamente) por el estudiante de Gestión de Proyectos de la Universidad de Harvard, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG es una Fundación de Código Abierto, líder en la industria del desarrollo basada en Metodologías Ágiles y de Gestión de Proyectos aplicadas a los desarrollos.
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
-
 SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools!
 
 ✨ We are proud to announce, ITAMAESAN, a project to help developers, exclusive working with Open Source MIT License on our code.
