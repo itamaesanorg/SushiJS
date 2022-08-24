@@ -93,43 +93,43 @@ it converts into CIL, the ans is:
        
 If we see the folder Strucuture:
 
-🔪---src
-    ▒   🎋---app
-    ▒   ▒   🥓---components
-    ▒   ▒   🥓---styles
-    ▒   🎋---common 👈👈👈 HERE FIRST REFERENCE ID FROM CIL
-    ▒   ▒   🥓---components
-    ▒   ▒   ▒   🔲elements
-    ▒   ▒   ▒       ⬜️---00 Header
-    ▒   ▒   ▒       ▒   ⬛️---00 Meta
-    ▒   ▒   ▒       ⬜️---01 Head
-    ▒   ▒   ▒       ▒   ⬛️---01 Menu
-    ▒   ▒   ▒       ▒   ⬛️---02 SecondaryMenu
-    ▒   ▒   ▒       ⬜️---02 Body 👈👈👈 HERE SECOND REFERENCE ID FROM CIL
-    ▒   ▒   ▒       ▒   ⬛️---03 Carrousel 👈👈👈 HERE THIRD REFERENCE ID FROM CIL
-    ▒   ▒   ▒       ⬜️---03 Footer
-    ▒   ▒   ▒       ▒   ⬛️---04 Legal
-    ▒   ▒   ▒       ▒   ⬛️---05 TermsAndConditions
-    ▒   ▒   🥓---hooks
-    ▒   ▒   🥓---types
-    ▒   ▒   🥓---utils
-    ▒   🎋---modules
-    ▒   ▒   🥓---auth
-    ▒   🎋---pages
-    ▒       🥓---api
-    ▒   🎋---uncommon
-    ▒   ▒   🥓---components
-    ▒   ▒   ▒   🔲elementsbypage
-    ▒   ▒   ▒       ⬜️---01 Home
-    ▒   ▒   ▒       ▒   ⬛️---00 Header
-    ▒   ▒   ▒       ▒   ⬛️---01 Head
-    ▒   ▒   ▒       ▒   ⬛️---02 Body
-    ▒   ▒   ▒       ▒   ⬛️---03 Footer    
-    ▒   ▒   ▒       ⬜️---02 404
-    ▒   ▒   ▒       ▒   ⬛️---00 Header
-    ▒   ▒   ▒       ▒   ⬛️---01 Head
-    ▒   ▒   ▒       ▒   ⬛️---02 Body
-    ▒   ▒   ▒       ▒   ⬛️---03 Footer    
+        🔪---src
+            ▒   🎋---app
+            ▒   ▒   🥓---components
+            ▒   ▒   🥓---styles
+            ▒   🎋---common 👈👈👈 HERE FIRST REFERENCE ID FROM CIL
+            ▒   ▒   🥓---components
+            ▒   ▒   ▒   🔲elements
+            ▒   ▒   ▒       ⬜️---00 Header
+            ▒   ▒   ▒       ▒   ⬛️---00 Meta
+            ▒   ▒   ▒       ⬜️---01 Head
+            ▒   ▒   ▒       ▒   ⬛️---01 Menu
+            ▒   ▒   ▒       ▒   ⬛️---02 SecondaryMenu
+            ▒   ▒   ▒       ⬜️---02 Body 👈👈👈 HERE SECOND REFERENCE ID FROM CIL
+            ▒   ▒   ▒       ▒   ⬛️---03 Carrousel 👈👈👈 HERE THIRD REFERENCE ID FROM CIL
+            ▒   ▒   ▒       ⬜️---03 Footer
+            ▒   ▒   ▒       ▒   ⬛️---04 Legal
+            ▒   ▒   ▒       ▒   ⬛️---05 TermsAndConditions
+            ▒   ▒   🥓---hooks
+            ▒   ▒   🥓---types
+            ▒   ▒   🥓---utils
+            ▒   🎋---modules
+            ▒   ▒   🥓---auth
+            ▒   🎋---pages
+            ▒       🥓---api
+            ▒   🎋---uncommon
+            ▒   ▒   🥓---components
+            ▒   ▒   ▒   🔲elementsbypage
+            ▒   ▒   ▒       ⬜️---01 Home
+            ▒   ▒   ▒       ▒   ⬛️---00 Header
+            ▒   ▒   ▒       ▒   ⬛️---01 Head
+            ▒   ▒   ▒       ▒   ⬛️---02 Body
+            ▒   ▒   ▒       ▒   ⬛️---03 Footer    
+            ▒   ▒   ▒       ⬜️---02 404
+            ▒   ▒   ▒       ▒   ⬛️---00 Header
+            ▒   ▒   ▒       ▒   ⬛️---01 Head
+            ▒   ▒   ▒       ▒   ⬛️---02 Body
+            ▒   ▒   ▒       ▒   ⬛️---03 Footer    
 
 You will notice, there is no error identifyn between a common and an ucommon component.
 This how at SushiJS we solved many problems, making quicker, easier and common understandable, between devs, and non devs, also PM who knows to code but do need to know how the folder file system strcututire is, why and how to arrive to their destination.
