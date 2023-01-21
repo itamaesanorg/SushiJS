@@ -18,7 +18,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
   - [Thanks Letter](#thanks-letter)
   - [Main Features](#main-features)
   - [Updates 2023](#updates-2023)
-    - [github 2.0.10 | npm 2.0.10](#github-2010--npm-2010)
+    - [github 2.1.1 | npm 2.1.1](#github-211--npm-211)
     - [Agile in NextJS](#agile-in-nextjs)
   - [Introduction to Common Internet Language also CIL](#introduction-to-common-internet-language-also-cil)
 - [Code Internet Language in a real case use.](#code-internet-language-in-a-real-case-use)
@@ -58,7 +58,7 @@ We want to thank you for using our framework, we are very happy that you are par
 
 ## Updates 2023
 
-### github 2.0.10 | npm 2.0.10
+### github 2.1.1 | npm 2.1.1
 
 For  this we added a new section, called Updates, where we will be adding the updates of the framework, so you can see what we are doing in the framework, and what we are adding to the framework. [See the updates here](/update.md)
 
