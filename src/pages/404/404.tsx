@@ -7,13 +7,13 @@ import Meta from 'src/common/components/elements/00 Header/00 Meta'
 
 export default function Home() {
   return (
-  <div>
-  <Meta />
-  <Sushisho />
-  <Sushiten />
-  <CoolErrorExport />
-  <Footer />
-  </div>
+    <div>
+      <Meta />
+      <Sushisho />
+      <Sushiten />
+      <CoolErrorExport />
+      <Footer />
+    </div>
   )
 }
 

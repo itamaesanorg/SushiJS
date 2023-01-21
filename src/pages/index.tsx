@@ -6,13 +6,13 @@ import Footer from 'src/common/components/elements/03 Footer/25 Footer'
 
 export default function Home() {
   return (
-  <div>
-  <Meta />
-  <Sushisho />
-  <Sushiten />
-  <BigTextExport />
-  <Footer />
-  </div>
+    <div>
+      <Meta />
+      <Sushisho />
+      <Sushiten />
+      <BigTextExport />
+      <Footer />
+    </div>
   )
 }
 

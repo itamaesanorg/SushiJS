@@ -8,27 +8,38 @@ SushiJS, está programado en Typescript a través de la tecnología NextJS, Tail
 
 SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools!
 
-✨ We are proud to announce, ITAMAESAN, a project to help developers, exclusive working with Open Source MIT License on our code.
+✨ We are proud to announce, ITAMAESAN, a project to help developers, exclusive working with Open Source Pylar AI creative ML License on our code.
 
-✨ ITAMAESAN は、オープンソースの MIT ライセンスで開発する開発者を支援するプロジェクトです。
+✨ ITAMAESAN は、オープンソースの Pylar AI creative ML ライセンスで開発する開発者を支援するプロジェクトです。
 # Project Organizer
 
-- [Main Features](#Main-Features)
-- [Agile in NextJS](#Agile-in-NextJS)
-- [Introduction to Common Internet Language also CIL](#Introduction-to-Common-Internet-Language-also-CIL)
-- [Code Internet Language in a real case use](#Code-Internet-Language-in-a-real-case-use)
-- [NRNx2 Agile by ITAMAESAN](#NRNx2-Agile-by-ITAMAESAN)
-- [Project Management System](#Project-Management-System)
-- [Features](#Features)
-- [Why NRNx2](#Why-NRNx2)
-- [HowTo](#HowTo)
-- [Directories](#Directories)
-- [NRNx2 Agile](#NRNx2-Agile)
-- [npm](#npm)
-- [Support](#Support)
-- [License](#license)
-- [We run on](#we-run-on)
-- [Fix](#ix)
+- [SushiJS](#sushijs)
+- [Project Organizer](#project-organizer)
+  - [Thanks Letter](#thanks-letter)
+  - [Main Features](#main-features)
+  - [Updates 2023](#updates-2023)
+    - [github 2.0.10 | npm 2.0.10](#github-2010--npm-2010)
+    - [Agile in NextJS](#agile-in-nextjs)
+  - [Introduction to Common Internet Language also CIL](#introduction-to-common-internet-language-also-cil)
+- [Code Internet Language in a real case use.](#code-internet-language-in-a-real-case-use)
+- [NRNx2 Agile by ITAMAESAN](#nrnx2-agile-by-itamaesan)
+  - [Project Management System](#project-management-system)
+    - [Features](#features)
+- [Why NRNx2](#why-nrnx2)
+  - [HowTo](#howto)
+- [Directories](#directories)
+  - [NRNx2 Agile](#nrnx2-agile)
+  - [Getting started](#getting-started)
+  - [npm](#npm)
+  - [Support](#support)
+  - [License](#license)
+  - [We run on](#we-run-on)
+  - [Fix](#fix)
+
+
+## Thanks Letter
+
+We want to thank you for using our framework, we are very happy that you are part of our community and we hope that you continue to be part of it. Now we are over 1000 per month between sushis and [sushis-demo](https://npmjs.com/sushis-demo)
 
 
 ## Main Features
@@ -41,6 +52,39 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
     📱 Responsive Nav
     🍱 Easy, git clone & npm install/run
     🎉 Folder organized structure
+
+- [Back to top 🔼](#Project-Organizer)
+
+
+## Updates 2023
+
+### github 2.0.10 | npm 2.0.10
+
+For  this we added a new section, called Updates, where we will be adding the updates of the framework, so you can see what we are doing in the framework, and what we are adding to the framework. [See the updates here](/update.md)
+
+We are going to update 1 time per month to mantain stable the project, not to risk anyone, since we are 1000 users per month!!!
+
+- ✅ We constantly update the framework to make it more secure and stable.
+- ✅ We perform this updates in Dependencies in the framework:
+  - ⬆️ eslint-config-prettier to 8.6.0
+  - ⬆️ framer-motion to 8.5.0
+  - ⬆️ next-themes to 0.2.1
+- ✅ We perform this updates in devDependencies in the framework:
+  - ⬆️ types/node to 18.11.18
+  - ⬆️ types/react to 18.0.27
+  - ⬆️ typescript-eslint/eslint-plugin to 5.48.2
+  - ⬆️ typescript-eslint/parser to 5.48.2
+  - ⬆️ eslint to 8.32.0
+  - ⬆️ eslint-config-next to 13.1.4
+  - ⬆️ husky to 8.0.3
+  - ⬆️ postcss to 8.4.21
+  - ⬆️ prettier to 2.8.3
+  - ⬆️ tailwindcss to 3.2.4
+  - ⬆️ typescript to 4.9.4
+- ✅ We perform successfull removals for non used Dependencies in the framework:
+  - ❌ remove cmdk: 0.1.19
+- ✅ We are now using using @next/codemod for the links!
+- 📝 Now we updated the license, we are now using a Pylar AI creative ML License, you can see the license [here](https://huggingface.co/spaces/superdatas/LICENSE).
 
 - [Back to top 🔼](#Project-Organizer)
 
@@ -428,7 +472,7 @@ This also enables a way to order tasks as the Agile Scrum Manifesto states.
 
 ## License
 
-    ⚖️ MIT at: https://github.com/itamaesanorg/SushiJS/blob/main/LICENSE
+    ⚖️ We are now using Pylar AI creative ML license [here](https://huggingface.co/spaces/superdatas/LICENSE).
 
 - [Back to top 🔼](#Project-Organizer)
 
