@@ -1,10 +1,6 @@
 // Welcome to SushiJS at SushiJS.com by ITAMAESAN at Itamaesan.org
 import React from 'react'
-
-import { motion } from 'framer-motion'
 import Link from 'next/link'
-
-
 
 export default function Sushisho() {
   return (
@@ -12,7 +8,7 @@ export default function Sushisho() {
       <nav
       >
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://wri.sushijs.com/'>     
+          <Link href='https://wri.sushijs.com/'>
             <a className='hover:text-primary transition-all cursor-pointer'>
               💎 Wri
             </a>
@@ -26,8 +22,8 @@ export default function Sushisho() {
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-        <Link href='/'>
-          <a className='hover:text-primary transition-all cursor-pointer'>
+          <Link href='/'>
+            <a className='hover:text-primary transition-all cursor-pointer'>
               🍣 SushiJS
             </a>
           </Link>
@@ -41,7 +37,7 @@ export default function Sushisho() {
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='https://twitter.com/itamaesanorg'>
-          <a className='hover:text-primary transition-all cursor-pointer'>
+            <a className='hover:text-primary transition-all cursor-pointer'>
               🐦 Twitter
             </a>
           </Link>

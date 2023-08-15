@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react'
-
 import { motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
-
 import Footer from 'src/common/components/elements/03 Footer/25 Footer/Footer'
 import cn from 'lib/classNames'
 
