@@ -1,5 +1,6 @@
 ![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://user-images.githubusercontent.com/5947268/185643867-81854585-1f24-470e-9836-2a8b9c62c8dd.png)
 
+
 # SushiJS
 
 SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile. Intriduces NRNx2, an evolution of Next Right Now and Agile subsystem folder structure and development methodology. Makes anybody to understand the folder structure. A new revolutionary and evolved folder "modular" structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.
@@ -11,6 +12,7 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
 ✨ We are proud to announce, ITAMAESAN, a project to help developers, exclusive working with Open Source Pylar AI creative ML License on our code.
 
 ✨ ITAMAESAN は、オープンソースの Pylar AI creative ML ライセンスで開発する開発者を支援するプロジェクトです。
+
 # Project Organizer
 
 - [SushiJS](#sushijs)
@@ -55,8 +57,72 @@ We want to thank you for using our framework, we are very happy that you are par
 
 - [Back to top 🔼](#Project-Organizer)
 
+## Sushis and Sushis-Demo in numbers
+
+We are so excited to announce that in 2022 Sushis Demo helped to contribute over 6390 Downloads and Sushis 3425 tines! In total: over 9815 Downloads!
+
+By the moment on 2023 from jan to apr we are on records with: Sushis 4120 and Sushis Demo 8250! In total: over 12370 Downloads!
+
+![Sushis 746 Jan 23](.stats/sushisjan23.png)
+![Sushis 702 Apr 23](.stats/sushisapr23.png)
+![Sushis Demo 1423 Jan 23](.stats/sushisdemojan23.png)
+![Sushis Demo 1405 Apr 23](.stats/sushisdemoapr23.png)
+
+Tools we used to make the stats:
+
+[npm charts](https://npmcharts.com/compare/sushis,sushis-demo?interval=30&log=false)
+
+### Recap
+
+#### Downloads per Year
+
+Year | Downloads | Repo
+--- | --- | ---
+2022 | 3425 | Sushis
+2023 (Jan-Aug) | 4120 | Sushis
+2022 | 6391 | Sushis-Demo
+2023 (Jan-Aug) | 8250 | Sushis-Demo
+
+#### Downloads per Month
+
+Month | Downloads | Repo
+--- | --- | ---
+Jan | 746 | Sushis
+Jan | 1423 | Sushis-Demo
+Apr | 702 | Sushis
+Apr | 1405 | Sushis-Demo
+
+
+
+### Totals
+
+Year | Downloads
+--- | ---
+2022 | 9816
+2023 (Jan-Aug) | 12370
+
+### Stats Sushis
+![Sushis Download per Month](.stats/stats-sushis.png)
+
+Total number of downloads between 2022-08-01 and 2023-08-01:
+
+package	downloads
+sushis	7,545
+
+### Stats Sushis Demo
+![Sushis-Demo Download per Month](.stats/stats-sushisdemo.png)
+
+Total number of downloads between 2022-08-01 and 2023-08-01:
+
+package	downloads
+sushis-demo	14,641
 
 ## Updates 2023
+
+### github 2.1.2 | npm 2.1.1
+
+Fix minor code issues and delete some imports on unnecessary files, also we fixed the menu part.
+We added the stats part.
 
 ### github 2.1.1 | npm 2.1.1
 

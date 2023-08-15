@@ -7,11 +7,16 @@ At Zenix Framework we are committed to providing a secure framework for our user
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 1.0.103  | Pending |
 | 1.0.101  | :white_check_mark: |
 | 1.0.101  | :white_check_mark: |
 | 1.0.101  | :white_check_mark: |
 | 1.0.101  | :x:                |
 | < 1.0.99   | :x:                |
+
+We have been investigating about 
+
+![1.0.103 Update Pending](.security/0010103.png)
 
 ## Reporting a Vulnerability
 
