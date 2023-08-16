@@ -35,3 +35,4 @@ yarn-error.log*
 .vercel
 .stats/Downloads.xlsx
 pnpm-lock.yaml
+package-lock.json
