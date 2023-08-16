@@ -1,28 +1,29 @@
-![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://user-images.githubusercontent.com/5947268/185643867-81854585-1f24-470e-9836-2a8b9c62c8dd.png)
-
-
-# SushiJS
+![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://raw.githubusercontent.com/itamaesanorg/presskit/main/SushiJS.png)
 
 SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile. Intriduces NRNx2, an evolution of Next Right Now and Agile subsystem folder structure and development methodology. Makes anybody to understand the folder structure. A new revolutionary and evolved folder "modular" structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.
 
-SushiJS, está programado en Typescript a través de la tecnología NextJS, TailwindCSS con Framer, es un Framework basado en Agile. Introduce NRNx2, una evolución de la estructura de carpetas del subsistema Next Right Now y Agile y la metodología de desarrollo. Hace que cualquiera entienda la estructura de carpetas. Una nueva estructura "modular" de carpetas revolucionaria y evolucionada, desarrollada en una semana (1 semana exactamente) por el estudiante de Gestión de Proyectos de la Universidad de Harvard, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG es una Fundación de Código Abierto, líder en la industria del desarrollo basada en Metodologías Ágiles y de Gestión de Proyectos aplicadas a los desarrollos.
-
-SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help developers build great tools!
-
 ✨ We are proud to announce, ITAMAESAN, a project to help developers, exclusive working with Open Source Pylar AI creative ML License on our code.
 
-✨ ITAMAESAN は、オープンソースの Pylar AI creative ML ライセンスで開発する開発者を支援するプロジェクトです。
+## About the Aug 16th 2023 Update (3.0.0)
 
-# Project Organizer
+- 🧑‍💻 Due to the recent [numbers](.docs/downloads/numbers.md) we decided to update the framework every 6 months for a solid maintenance and support. Please read the [Letter](#thanks-letter) to know more about the numbers.
 
-- [SushiJS](#sushijs)
-- [Project Organizer](#project-organizer)
-  - [Thanks Letter](#thanks-letter)
-  - [Main Features](#main-features)
-  - [Updates 2023](#updates-2023)
-    - [github 2.1.1 | npm 2.1.1](#github-211--npm-211)
-    - [Agile in NextJS](#agile-in-nextjs)
-  - [Introduction to Common Internet Language also CIL](#introduction-to-common-internet-language-also-cil)
+- 👍 Now `sushis` and `sushis-demo` are now on the same version, the transition has been complete at 100% from `2.1.2` to `3.0.0` in code and content. We notice that the this site, [ITAMAESAN](https://itamaesan.org) uses the same technology to demonstrate!
+
+- 🎉 A real use case at [BCN Hostess](https://bcnhostess.com) uses our framework to build their commercial website!
+
+- ✅ We maintain the essence of the framework, this means: no NextJS app folder or turbo are by the moment in our priorities, so we deleted the unused `app` folder and we maintain the `common` folder, which is the main folder of the framework. You can create it, it is still compatible with the framework, but we do not use it anymore. At your choice. See [Deprecated](.docs/assets/.security/0010103.png)
+
+- 🌱 We improved the installation time from 9.1 seconds to 3.8 seconds, that is x2.4 times faster than before by reducing the number of packages from 395 to 372.
+
+- 🌿 We also updated the depenendencies and devDependencies to the latest version.
+
+- 🌳 And we fixed the `<Link>` by replacing `<a>` into `<p>` and the `useInterval` into `useState, useEffect` to delete the `react-use` package.
+
+  Here in this table you have the details of the changes: [Table of changes](#table-of-changes)
+
+## Project Organizer
+
 - [Code Internet Language in a real case use.](#code-internet-language-in-a-real-case-use)
 - [NRNx2 Agile by ITAMAESAN](#nrnx2-agile-by-itamaesan)
   - [Project Management System](#project-management-system)
@@ -33,15 +34,40 @@ SushiJS is a Typescript, NextJS, TailwindCSS and Motion Framer project to help d
   - [NRNx2 Agile](#nrnx2-agile)
   - [Getting started](#getting-started)
   - [npm](#npm)
+  - [🚀 Update log](#-update-log)
+    - [Before 2.1.2](#before-212)
+    - [After 3.0.0](#after-300)
+    - [✨ Updates 2023](#-updates-2023)
+    - [github 3.0.0 | npm 3.0.0](#github-300--npm-300)
+      - [Table of changes](#table-of-changes)
+      - [Improvements](#improvements)
+      - [How we changed the code](#how-we-changed-the-code)
+      - [github 2.1.2 | npm 2.1.1](#github-212--npm-211)
+      - [github 2.0.10 | npm 2.0.10](#github-2010--npm-2010)
+  - [Recap Numbers](#recap-numbers)
+    - [Downloads](#downloads)
+    - [Stats Sushis Demo](#stats-sushis-demo)
+    - [Downloads per Year](#downloads-per-year)
+    - [Downloads per Month](#downloads-per-month)
+    - [Totals](#totals)
   - [Support](#support)
   - [License](#license)
   - [We run on](#we-run-on)
   - [Fix](#fix)
 
-
 ## Thanks Letter
 
-We want to thank you for using our framework, we are very happy that you are part of our community and we hope that you continue to be part of it. Now we are over 1000 per month between sushis and [sushis-demo](https://npmjs.com/sushis-demo)
+Our journey has been marked by remarkable progress, as evidenced by the consistent growth in user installations. From August 2022 to May 2023, "sushis" garnered an average of around 273 users each month, while "sushis-demo" recorded an average of about 413 users per month. These figures underscore the increasing popularity of our offerings within the community. Looking forward, we are excited to announce our commitment to enhancing user experiences with regular updates, scheduled every six months. This strategic approach ensures that we continue to deliver cutting-edge solutions while maintaining the core essence that has made us a trusted framework.
+
+We are delighted to announce that our efforts have led to remarkable results. In 2022, Sushi's Demo significantly contributed to our cause, resulting in over 6390 downloads and an impressive 3425 instances of Sushi's software being utilized. This combined effort resulted in a grand total of over 9815 downloads.
+
+Looking ahead to the period between January and April of 2023, we are thrilled to report continued success. During this span, Sushi's software was downloaded 4120 times, while Sushi's Demo achieved an outstanding 8250 downloads. This remarkable achievement brings our cumulative total to over 12370 downloads.
+
+Moreover, we are excited to share that our development is progressing at a steady pace. We have established a rhythm of releasing updates every six months, maintaining the core essence of our software. This consistency has led us to officially attain the status of a comprehensive framework in all respects.
+
+See the [Downloads](#downloads) section for more details.
+
+- [Back to top 🔼](#Project-Organizer)
 
 
 ## Main Features
@@ -54,103 +80,6 @@ We want to thank you for using our framework, we are very happy that you are par
     📱 Responsive Nav
     🍱 Easy, git clone & npm install/run
     🎉 Folder organized structure
-
-- [Back to top 🔼](#Project-Organizer)
-
-## Sushis and Sushis-Demo in numbers
-
-We are so excited to announce that in 2022 Sushis Demo helped to contribute over 6390 Downloads and Sushis 3425 tines! In total: over 9815 Downloads!
-
-By the moment on 2023 from jan to apr we are on records with: Sushis 4120 and Sushis Demo 8250! In total: over 12370 Downloads!
-
-![Sushis 746 Jan 23](.stats/sushisjan23.png)
-![Sushis 702 Apr 23](.stats/sushisapr23.png)
-![Sushis Demo 1423 Jan 23](.stats/sushisdemojan23.png)
-![Sushis Demo 1405 Apr 23](.stats/sushisdemoapr23.png)
-
-Tools we used to make the stats:
-
-[npm charts](https://npmcharts.com/compare/sushis,sushis-demo?interval=30&log=false)
-
-### Recap
-
-#### Downloads per Year
-
-Year | Downloads | Repo
---- | --- | ---
-2022 | 3425 | Sushis
-2023 (Jan-Aug) | 4120 | Sushis
-2022 | 6391 | Sushis-Demo
-2023 (Jan-Aug) | 8250 | Sushis-Demo
-
-#### Downloads per Month
-
-Month | Downloads | Repo
---- | --- | ---
-Jan | 746 | Sushis
-Jan | 1423 | Sushis-Demo
-Apr | 702 | Sushis
-Apr | 1405 | Sushis-Demo
-
-
-
-### Totals
-
-Year | Downloads
---- | ---
-2022 | 9816
-2023 (Jan-Aug) | 12370
-
-### Stats Sushis
-![Sushis Download per Month](.stats/stats-sushis.png)
-
-Total number of downloads between 2022-08-01 and 2023-08-01:
-
-package	downloads
-sushis	7,545
-
-### Stats Sushis Demo
-![Sushis-Demo Download per Month](.stats/stats-sushisdemo.png)
-
-Total number of downloads between 2022-08-01 and 2023-08-01:
-
-package	downloads
-sushis-demo	14,641
-
-## Updates 2023
-
-### github 2.1.2 | npm 2.1.1
-
-Fix minor code issues and delete some imports on unnecessary files, also we fixed the menu part.
-We added the stats part.
-
-### github 2.1.1 | npm 2.1.1
-
-For  this we added a new section, called Updates, where we will be adding the updates of the framework, so you can see what we are doing in the framework, and what we are adding to the framework. [See the updates here](/update.md)
-
-We are going to update 1 time per month to mantain stable the project, not to risk anyone, since we are 1000 users per month!!!
-
-- ✅ We constantly update the framework to make it more secure and stable.
-- ✅ We perform this updates in Dependencies in the framework:
-  - ⬆️ eslint-config-prettier to 8.6.0
-  - ⬆️ framer-motion to 8.5.0
-  - ⬆️ next-themes to 0.2.1
-- ✅ We perform this updates in devDependencies in the framework:
-  - ⬆️ types/node to 18.11.18
-  - ⬆️ types/react to 18.0.27
-  - ⬆️ typescript-eslint/eslint-plugin to 5.48.2
-  - ⬆️ typescript-eslint/parser to 5.48.2
-  - ⬆️ eslint to 8.32.0
-  - ⬆️ eslint-config-next to 13.1.4
-  - ⬆️ husky to 8.0.3
-  - ⬆️ postcss to 8.4.21
-  - ⬆️ prettier to 2.8.3
-  - ⬆️ tailwindcss to 3.2.4
-  - ⬆️ typescript to 4.9.4
-- ✅ We perform successfull removals for non used Dependencies in the framework:
-  - ❌ remove cmdk: 0.1.19
-- ✅ We are now using using @next/codemod for the links!
-- 📝 Now we updated the license, we are now using a Pylar AI creative ML License, you can see the license [here](https://huggingface.co/spaces/superdatas/LICENSE).
 
 - [Back to top 🔼](#Project-Organizer)
 
@@ -526,6 +455,353 @@ This also enables a way to order tasks as the Agile Scrum Manifesto states.
     ⬜⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜
 
 - [Back to top 🔼](#Project-Organizer)
+
+
+## 🚀 Update log
+
+Here you can see the updates of the framework and website.
+
+### Before 2.1.2
+
+```
+Downloading registry.npmjs.org/next/13.4.16: 12.94 MB/12.94 MB, done
+Packages: +395
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Downloading registry.npmjs.org/@next/swc-win32-x64-msvc/13.4.16: 33.63 MB/33.63 MB, done
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: D:\.pnpm-store\v3
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 404, reused 374, downloaded 21, added 395, done
+
+> sushis@2.1.2 prepare D:\npm\SushiJS
+> husky install
+
+husky - Git hooks installed
+
+dependencies:
++ @segment/in-eu 0.4.0
++ eslint-config-prettier 9.0.0
++ framer-motion 10.15.2
++ next 13.4.16
++ next-themes 0.2.1
++ react 18.2.0
++ react-dom 18.2.0
++ react-use 17.4.0
+
+devDependencies:
++ @types/node 20.5.0
++ @types/react 18.2.20
++ @typescript-eslint/eslint-plugin 6.4.0
++ @typescript-eslint/parser 6.4.0
++ autoprefixer 10.4.15
++ eslint 8.47.0
++ eslint-config-next 13.4.16
++ eslint-plugin-prettier 5.0.0
++ husky 8.0.3
++ postcss 8.4.28
++ prettier 3.0.2
++ tailwindcss 3.3.3
++ typescript 5.1.6
+
+The integrity of 6061 files was checked. This might have caused installation to take longer.
+Done in 9.1s
+```
+
+### After 3.0.0
+
+```
+Packages: +372
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: D:\.pnpm-store\v3
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 381, reused 372, downloaded 0, added 372, done
+
+> sushis@2.1.2 prepare D:\npm\SushiJS
+> husky install
+
+husky - Git hooks installed
+
+dependencies:
++ @segment/in-eu 0.4.0
++ eslint-config-prettier 9.0.0
++ framer-motion 10.15.2
++ next 13.4.16
++ next-themes 0.2.1
++ react 18.2.0
++ react-dom 18.2.0
+
+devDependencies:
++ @types/node 20.5.0
++ @types/react 18.2.20
++ @typescript-eslint/eslint-plugin 6.4.0
++ @typescript-eslint/parser 6.4.0
++ autoprefixer 10.4.15
++ eslint 8.47.0
++ eslint-config-next 13.4.16
++ eslint-plugin-prettier 5.0.0
++ husky 8.0.3
++ postcss 8.4.28
++ prettier 3.0.2
++ tailwindcss 3.3.3
++ typescript 5.1.6
+
+Done in 3.8s
+```
+
+- [Back to top 🔼](#Project-Organizer)
+
+
+### ✨ Updates 2023
+
+### github 3.0.0 | npm 3.0.0
+
+This update date on Wed 16, August 2023.
+
+We have the honor to present sushis 3.0.0 maintaining the essence of the framework.
+The unique 2 changes you need to be aware of are:
+ - we need to do is to replace the <a> inside the <Link> to <p> to avoid the error of the links
+ - use `import React, { useState, useEffect } from 'react';` instead of `import { useInterval } from 'react-use'` to avoid the error of the links
+Don't worry, down bellow the table we shown you the "how-to" / "how we" changed the code.
+
+
+1. **Number of Packages**: The gh 2.1.2 npm 2.1.1 has more packages (395) compared to the gh 3.0.0 npm 3.0.0 (372), with the difference primarily due to the presence of the `react-use` package.
+
+2. **Installation Time**: The gh 2.1.2 npm 2.1.1 takes more time (9.1 seconds) to install the additional packages, whereas the gh 3.0.0 npm 3.0.0 installs fewer packages and completes faster (3.8 seconds).
+
+3. **Package Integrity Check**: The gh 2.1.2 npm 2.1.1 mentions the integrity check of 6061 files during installation, which may have contributed to the longer installation time. This information is not present in the gh 3.0.0 npm 3.0.0.
+
+4. **Package Versions**: Both setups share the same oackages (unless 1) for common packages, indicating consistency in dependencies.
+
+5. **Output Format**: The outputs have slightly different formatting, but they both include information about the installed packages and installation times.
+
+
+#### Table of changes
+
+  | Type                             | Name            | gh 2.1.2 npm 2.1.1 | --> | gh 3.0.0 npm 3.0.0 |
+  | -------------------------------- | --------------- | ------------------ | --- | ------------------ |
+  | Dependencies                     |                 |                    |     |                    |
+  | @segment/in-eu                   | Dependencies    | ^0.3.0             | --> | ^0.4.0             |
+  | eslint-config-prettier           | Dependencies    | ^8.6.0             | --> | ^9.0.0             |
+  | framer-motion                    | Dependencies    | ^8.5.0             | --> | ^10.15.2           |
+  | next                             | Dependencies    | ^12.2.5            | --> | ^13.4.16           |
+  | - react-use                      | Dependencies    | ^17.4.0            |     |                    |
+  | DevDependencies                  |                 |                    |     |                    |
+  | @types/node                      | DevDependencies | ^18.11.18          | --> | ^20.5.0            |
+  | @types/react                     | DevDependencies | ^18.0.27           | --> | ^18.2.20           |
+  | @typescript-eslint/eslint-plugin | DevDependencies | ^5.48.2            | --> | ^6.4.0             |
+  | @typescript-eslint/parser        | DevDependencies | ^5.48.2            | --> | ^6.4.0             |
+  | autoprefixer                     | DevDependencies | ^10.4.13           | --> | ^10.4.15           |
+  | eslint                           | DevDependencies | ^8.32.0            | --> | ^8.47.0            |
+  | eslint-config-next               | DevDependencies | 13.1.4             | --> | 13.4.16            |
+  | eslint-plugin-prettier           | DevDependencies | ^4.2.1             | --> | ^5.0.0             |
+  | postcss                          | DevDependencies | ^8.4.21            | --> | ^8.4.28            |
+  | prettier                         | DevDependencies | ^2.8.3             | --> | ^3.0.2             |
+  | tailwindcss                      | DevDependencies | ^3.2.4             | --> | ^3.3.3             |
+  | typescript                       | DevDependencies | ^4.9.4             | --> | ^5.1.6             |
+
+#### Improvements
+
+  | Aspect              | gh 2.1.2 npm 2.1.1 | gh 3.0.0 npm 3.0.0 |
+  | ------------------- | ------------------ | ------------------ |
+  | Downloaded Packages | 395                | 372                |
+  | Installation Time   | 9.1 seconds        | 3.8 seconds        |
+
+- [Back to top 🔼](#Project-Organizer)
+
+
+#### How we changed the code
+
+BigText.tsx
+
+```
+import { useInterval } from 'react-use'
+
+export default function BigText({ slides }: BigTextProps) {
+  const [currentSlide, setSlide] = React.useState(0)
+
+  const totalSlides = slides.length
+
+  useInterval(() => {
+    if (totalSlides - 1 === currentSlide) {
+      setSlide(0)
+    } else {
+      setSlide(currentSlide + 1)
+    }
+  }, 2000)
+```	
+
+into 
+
+```
+import React, { useState, useEffect } from 'react';
+import classNames from 'lib/classNames';
+
+interface BigTextProps {
+  slides: Array<string>;
+}
+
+export default function BigText({ slides }: BigTextProps) {
+  const [currentSlide, setSlide] = useState(0);
+
+  const totalSlides = slides.length;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (totalSlides - 1 === currentSlide) {
+        setSlide(0);
+      } else {
+        setSlide(currentSlide + 1);
+      }
+    }, 2000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentSlide, totalSlides]);
+```
+
+and 
+
+CooltError.tsx
+
+```
+import { useInterval } from 'react-use'
+
+[...]
+
+export default function BigText({ slides }: BigTextProps) {
+  const [currentSlide, setSlide] = React.useState(0)
+
+  const totalSlides = slides.length
+
+  useInterval(() => {
+    if (totalSlides - 1 === currentSlide) {
+      setSlide(0)
+    } else {
+      setSlide(currentSlide + 1)
+    }
+  }, 2000)
+```
+
+into
+
+```
+import React, { useState, useEffect } from 'react';
+import classNames from 'lib/classNames';
+
+interface BigTextProps {
+  slides: Array<string>;
+}
+
+export default function BigText({ slides }: BigTextProps) {
+  const [currentSlide, setSlide] = useState(0);
+
+  const totalSlides = slides.length;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (totalSlides - 1 === currentSlide) {
+        setSlide(0);
+      } else {
+        setSlide(currentSlide + 1);
+      }
+    }, 2000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentSlide, totalSlides]);
+```	
+
+- [Back to top 🔼](#Project-Organizer)
+
+
+#### github 2.1.2 | npm 2.1.1
+
+Fix minor code issues and delete some imports on unnecessary files, also we fixed the menu part.
+We added the stats part.
+
+#### github 2.0.10 | npm 2.0.10
+
+- ✅ We constantly update the framework to make it more secure and stable.
+- ✅ We perform this updates in Dependencies in the framework:
+  - ⬆️ eslint-config-prettier to 8.6.0
+  - ⬆️ framer-motion to 8.5.0
+  - ⬆️ next-themes to 0.2.1
+- ✅ We perform this updates in devDependencies in the framework:
+  - ⬆️ types/node to 18.11.18
+  - ⬆️ types/react to 18.0.27
+  - ⬆️ typescript-eslint/eslint-plugin to 5.48.2
+  - ⬆️ typescript-eslint/parser to 5.48.2
+  - ⬆️ eslint to 8.32.0
+  - ⬆️ eslint-config-next to 13.1.4
+  - ⬆️ husky to 8.0.3
+  - ⬆️ postcss to 8.4.21
+  - ⬆️ prettier to 2.8.3
+  - ⬆️ tailwindcss to 3.2.4
+  - ⬆️ typescript to 4.9.4
+- ✅ We perform successfull removals for non used Dependencies in the framework:
+  - ❌ remove cmdk: 0.1.19
+- ✅ We are now using using @next/codemod for the links!
+- 📝 Now we updated the license, we are now using a Pylar AI creative ML License, you can see the license [here](https://huggingface.co/spaces/superdatas/LICENSE).
+
+- [Back to top 🔼](#Project-Organizer)
+
+## Recap Numbers
+
+![Sushis Download per Month](.docs/assets/.stats/stats-sushis.png)
+
+### Downloads
+
+![Sushis 746 Jan 23](.docs/assets/.stats/sushisjan23.png)
+![Sushis 702 Apr 23](.docs/assets/.stats/sushisapr23.png)
+![Sushis Demo 1423 Jan 23](.docs/assets/.stats/sushisdemojan23.png)
+![Sushis Demo 1405 Apr 23](.docs/assets/.stats/sushisdemoapr23.png)
+
+Tools we used to make the stats:
+
+[npm charts](https://npmcharts.com/compare/sushis,sushis-demo?interval=30&log=false)
+Total number of downloads between 2022-08-01 and 2023-08-01:
+
+package	downloads
+sushis	7,545
+
+### Stats Sushis Demo
+
+![Sushis-Demo Download per Month](.docs/assets/.stats/stats-sushisdemo.png)
+
+Total number of downloads between 2022-08-01 and 2023-08-01:
+
+package	downloads
+sushis-demo	14,641
+
+- [Back to top 🔼](#Project-Organizer)
+
+### Downloads per Year
+
+| Year           | Downloads | Repo        |
+| -------------- | --------- | ----------- |
+| 2022           | 3425      | Sushis      |
+| 2023 (Jan-Aug) | 4120      | Sushis      |
+| 2022           | 6391      | Sushis-Demo |
+| 2023 (Jan-Aug) | 8250      | Sushis-Demo |
+
+### Downloads per Month
+
+| Month | Downloads | Repo        |
+| ----- | --------- | ----------- |
+| Jan   | 746       | Sushis      |
+| Jan   | 1423      | Sushis-Demo |
+| Apr   | 702       | Sushis      |
+| Apr   | 1405      | Sushis-Demo |
+
+### Totals
+
+| Year           | Downloads |
+| -------------- | --------- |
+| 2022           | 9816      |
+| 2023 (Jan-Aug) | 12370     |
 
 
 ## Support

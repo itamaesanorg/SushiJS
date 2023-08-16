@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const Meta = () => (
 	<Head>
-		<title>SushiJS Framework</title>
+		<title>npm i sushis | SushiJS Framework</title>
 		<meta charSet='utf-8' />
 		<meta name='mobile-web-app-capable' content='yes' />
 		<meta name='apple-mobile-web-app-capable' content='yes' />

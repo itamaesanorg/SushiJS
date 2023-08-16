@@ -1,4 +1,3 @@
-// Welcome to SushiJS at SushiJS.com by ITAMAESAN at Itamaesan.org
 import React from 'react'
 import Link from 'next/link'
 
@@ -9,16 +8,16 @@ export default function Sushisho() {
       >
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='https://wri.sushijs.com/'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <p className='hover:text-primary transition-all cursor-pointer'>
               💎 Wri
-            </a>
+            </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='https://helpdesk.sushijs.com/'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+            <p className='hover:text-primary transition-all cursor-pointer'>
               📃 Helpdesk
-            </a>
+            </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>

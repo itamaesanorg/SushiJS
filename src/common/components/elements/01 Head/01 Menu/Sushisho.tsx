@@ -1,10 +1,6 @@
-// Welcome to SushiJS at SushiJS.com by ITAMAESAN at Itamaesan.org
 import React from 'react'
-
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-
-
 
 export default function Sushisho() {
   return (
@@ -15,38 +11,47 @@ export default function Sushisho() {
         transition={{ duration: 0.5 }}
       >
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://wri.sushijs.com/'>     
-            <a className='hover:text-primary transition-all cursor-pointer'>
+          <Link href='https://wri.sushijs.com/'
+           className='visible'
+           target='_blank'
+           rel='noreferrer'
+         >   
+            <p className='hover:text-primary transition-all cursor-pointer'>
               💎 Wri
-            </a>
+            </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://helpdesk.sushijs.com/'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+          <Link href='https://helpdesk.sushijs.com/'
+           className='visible'
+           target='_blank'
+           rel='noreferrer'
+         >
+            <p className='hover:text-primary transition-all cursor-pointer'>
               📃 Helpdesk
-            </a>
+            </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-        <Link href='/'>
-          <a className='hover:text-primary transition-all cursor-pointer'>
-              🍣 SushiJS
-            </a>
-          </Link>
-        </div>
-        <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://github.com/itamaesanorg/Giveaway-Tool'>
-            <a className='hover:text-primary transition-all cursor-pointer'>
+          <Link href='https://github.com/itamaesanorg/Giveaway-Tool'
+           className='visible'
+           target='_blank'
+           rel='noreferrer'
+         >
+            <p className='hover:text-primary transition-all cursor-pointer'>
               🪅 GiveAway Tool
-            </a>
+            </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://twitter.com/itamaesanorg'>
-          <a className='hover:text-primary transition-all cursor-pointer'>
+          <Link href='https://twitter.com/itamaesanorg'
+           className='visible'
+           target='_blank'
+           rel='noreferrer'
+         >
+          <p className='hover:text-primary transition-all cursor-pointer'>
               🐦 Twitter
-            </a>
+            </p>
           </Link>
         </div>
       </motion.nav>

@@ -6,15 +6,12 @@ export default function Home() {
         <div className='py-16 flex flex-col items-center justify-center inset-0'>
           <BigText
             slides={[
+              'npm i sushis',
               'TypeScript',
               'NextJS',
               'EU-Privacy',
               'TailwindCSS',
-              'Framer &',
-              'npm i wri',
-              'npm i sorteo',
-              'npm i sushis',
-              'soon Prisma',
+              'Framer'
             ]}
           />
         </div>
