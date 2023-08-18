@@ -1,5 +1,5 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
     "baseUrl": ".",
     "target": "es5",
     "lib": [
@@ -29,6 +29,8 @@
   },
   "include": [
     "next-env.d.ts",
+    "pages/**/*.ts",
+    "pages/**/*.tsx",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
