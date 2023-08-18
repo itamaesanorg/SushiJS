@@ -1,14 +1,14 @@
-PYLAR AI CREATIVE ML LICENSE
-OFFICIAL REFERENCE
+Pylar AI Creative ML Free License
+Copyright (C) 2023 Miguel Gargallo
 
-Version 0.0.5, 27th June 2023, Miguel Gargallo
+Permission
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The following conditions govern the use of the Pylar AI software and its associated documentation files (collectively referred to as the "Software"):
+Conditions
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Any work using, copying, modifying, merging, publishing, distributing, sublicensing, and/or selling copies of the Software must explicitly acknowledge "Miguel Gargallo" as the original author of this work.
+The file in which this license is included (LICENSE.md) must remain unmodified. Any modifications to this file will be considered a violation of this license.
+Disclaimer
+The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings in the Software.
 
-Grant of License: This license grants you, the end-user, the right to use the Software for educational, research, and personal learning purposes. Any use of the Software outside of these purposes, including any attempt to make profit from its use or redistribution, is strictly prohibited.
-Limitations on Use: You may not sell, rent, lease, sublicense, distribute, redistribute, or transfer the Software or any portion thereof to any third party. Furthermore, you may not modify, adapt, translate, reverse engineer, decompile, disassemble or otherwise attempt to derive source code from the Software.
-Intellectual Property Rights: All rights, title, and interest in and to the Software (including but not limited to any images, photographs, animations, video, audio, music, text, and "applets" incorporated into the Software), and any copies of the Software, are owned by Miguel Gargallo or his suppliers. All rights not specifically granted under this license are reserved by Miguel Gargallo or his suppliers.
-Non-Commercial Use: The Software is intended solely for educational and informative purposes. Commercial use, including but not limited to the sale of the Software or any associated materials, is prohibited.
-Self-Hosting Prohibited: You are strictly prohibited from hosting the Software, making it available to others via servers, cloud services, or online platforms, or using it in a way that it is accessible to others.
-Disclaimer of Warranty: The Software is provided "as is" without any warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event will Miguel Gargallo or his suppliers be liable for any damages whatsoever arising out of the use of or inability to use the Software.
-By using the Software, you agree to abide by the terms and conditions of this license. If you do not agree to these terms, you are not authorized to use or access the Software.
+For further details about this license, please visit: https://huggingface.co/spaces/superdatas/free-license

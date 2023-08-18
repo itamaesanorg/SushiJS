@@ -1,8 +1,8 @@
-import BigTextExport from 'src/common/components/elements/02 Body/18 BigTextExport'
-import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
-import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'
-import Meta from 'src/common/components/elements/00 Header/00 Meta'
-import Footer from 'src/common/components/elements/03 Footer/25 Footer'
+import Meta from 'ui/common/00_Header/01_Meta'
+import Sushisho from 'ui/common/01_Head/02_Menu'
+import Sushiten from 'ui/common/01_Head/03_SecondaryMenu'
+import Footer from 'ui/common/02_Footer/07_Footer'
+import BigTextExport from 'ui/uncommon/03_Body/15_BigTextExport/BigTextExport'
 
 export default function Home() {
   return (

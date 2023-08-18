@@ -1,8 +1,8 @@
 {
   "name": "sushis",
-  "version": "3.0.0",
-  "github version": "3.0.0",
-  "npm version": "3.0.0",
+  "version": "3.0.1",
+  "github version": "3.0.1",
+  "npm version": "3.0.1",
   "description": "SushiJS, is a Typescript, NextJS, TailwindCSS with Framer Framework based on Agile. Introduces NRNx2, an evolution of Next Right Now and Agile subsystem folder structure and development methodology. Makes anybody to understand the folder structure. A new revolutionary and evolved folder modular structure, developed in a week (1 week exactly) by the Harvard University student of Project Management, Miguel Gargallo, @miguelgargallo. ITAMAESAN ORG is an Open Source Code Foundation, leading in the development industry based on Agile and Project Management Methodologies applied to developments.",
   "main": "pages/index.tsx",
   "scripts": {
@@ -18,6 +18,30 @@
     "prepare": "husky install",
     "wclean": "rm -rf .husky .next node_modules package-lock.json pnpm-lock.yaml yarn.lock",
     "wready": " npm wclean && npm i && npm run dev"
+  },
+  "dependencies": {
+    "@segment/in-eu": "^0.4.0",
+    "eslint-config-prettier": "^9.0.0",
+    "framer-motion": "^10.15.2",
+    "next": "^13.4.16",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.20",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.47.0",
+    "eslint-config-next": "13.4.16",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.28",
+    "prettier": "^3.0.2",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
   },
   "prettier": {
     "singleQuote": true,
@@ -82,30 +106,6 @@
       "JSX": true
     }
   },
-  "dependencies": {
-    "@segment/in-eu": "^0.4.0",
-    "eslint-config-prettier": "^9.0.0",
-    "framer-motion": "^10.15.2",
-    "next": "^13.4.16",
-    "next-themes": "^0.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.5.0",
-    "@types/react": "^18.2.20",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.4.0",
-    "autoprefixer": "^10.4.15",
-    "eslint": "^8.47.0",
-    "eslint-config-next": "13.4.16",
-    "eslint-plugin-prettier": "^5.0.0",
-    "husky": "^8.0.3",
-    "postcss": "^8.4.28",
-    "prettier": "^3.0.2",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -135,13 +135,16 @@
     "Agile Development Methodologies",
     "Next Right Now",
     "NRN",
+    "NRNx2",
+    "NRN2",
     "EU-Privacy",
     "RedwoodJS",
     "Japan",
-    "Prisma"
+    "Supabase",
+    "PocketBase"
   ],
-  "author": "ITAMAESAN ORG",
-  "license": "MIT",
+  "author": "ITAMAESAN ORG & Miguel Gargallo",
+  "license": "other",
   "bugs": {
     "url": "https://github.com/itamaesanorg/SushiJS/issues"
   },

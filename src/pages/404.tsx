@@ -1,14 +1,14 @@
-import CoolErrorExport from 'src/common/components/elements/02 Body/20 CoolError404Exporter'
-import Sushisho from 'src/common/components/elements/01 Head/01 Menu'
-import Sushiten from 'src/common/components/elements/01 Head/02 SecondaryMenu'
-import Footer from 'src/common/components/elements/03 Footer/25 Footer'
-import Meta from 'src/common/components/elements/00 Header/00 Meta'
+import Meta from 'ui/common/00_Header/01_Meta'
+import Sushisho from 'ui/common/01_Head/02_Menu'
+import Sushiten from 'ui/common/01_Head/03_SecondaryMenu'
+import Footer from 'ui/common/02_Footer/07_Footer'
+import CoolErrorExport from 'ui/uncommon/03_Body/17_CoolError404Exporter/CoolErrorExport'
 
 export default function Home() {
   return (
     <div>
       <Meta />
-      <Sushisho />
+      <Sushisho />º
       <Sushiten />
       <CoolErrorExport />
       <Footer />
