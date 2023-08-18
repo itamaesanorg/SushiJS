@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
         <div className='flex flex-col space-y-4'>
           <p className='text-gray-500 hover:text-gray-600 transition'
-          >&gt; 1.2K/month on npm 🎉</p>
+          >&gt; 600/month on npm 🎉</p>
         <ExternalLink href='https://www.npmjs.com/package/sushis'>npm i sushis</ExternalLink>
         <ExternalLink href='https://www.npmjs.com/package/sushis-demo'>npm i sushis-demo</ExternalLink>
         </div>
