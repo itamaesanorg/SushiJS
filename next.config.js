@@ -1,6 +1,6 @@
 module.exports = {
   eslint: {
-    dirs: ['src', 'pages', 'ui'],
+    dirs: ['src', 'ui'],
   },
   images: {
     domains: ['api.itamaesan.org'],
