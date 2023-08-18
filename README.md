@@ -1,8 +1,10 @@
 ![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://raw.githubusercontent.com/itamaesanorg/presskit/main/SushiJS.png)
 
-# 🍣 SushiJS
+# 🍣 Sushis Framework aka SushiJS
 
 A revolutionary framework blending Typescript, NextJS, TailwindCSS, and Framer Motion, founded on Agile principles. Introducing **NRNx2** — the evolution of Next Right Now. Crafted by the brilliant Harvard University student of Project Management, Miguel Gargallo, [@miguelgargallo](https://github.com/miguelgargallo). Brought to you by [ITAMAESAN ORG](https://itamaesan.org) — leading the development industry with Agile and Project Management methodologies.
+
+![The main idea](./docs/assets/screens/structure.png)
 
 ## Thanks Letter
 
@@ -13,11 +15,12 @@ In 2022 alone, combined downloads for Sushi's software and Sushi's Demo exceeded
 We're also proud to note that our regular six-month update rhythm has positioned us as a reliable and comprehensive framework. For a detailed breakdown, please refer to the Downloads section.
 
 ## Table of Contents
-- [🍣 SushiJS](#-sushijs)
+- [🍣 Sushis Framework aka SushiJS](#-sushis-framework-aka-sushijs)
   - [Thanks Letter](#thanks-letter)
   - [Table of Contents](#table-of-contents)
   - [npm](#npm)
   - [🌟 Features](#-features)
+  - [In this Update](#in-this-update)
     - [Agile with NextJS](#agile-with-nextjs)
     - [Introducing Next Right Now 2 (NRNx2)](#introducing-next-right-now-2-nrnx2)
   - [Introduction to Common Internet Language also CIL](#introduction-to-common-internet-language-also-cil)
@@ -29,6 +32,9 @@ We're also proud to note that our regular six-month update rhythm has positioned
   - [Why NRNx2](#why-nrnx2)
   - [Directories](#directories)
     - [HowTo](#howto)
+  - [About LTS (Long Term Support)](#about-lts-long-term-support)
+    - [What is the difference between LTS and Minor versions?](#what-is-the-difference-between-lts-and-minor-versions)
+    - [The Continuum LTS (Long Term Support) Schedule](#the-continuum-lts-long-term-support-schedule)
   - [🤝 Contribute](#-contribute)
   - [📜 License](#-license)
 
@@ -50,6 +56,21 @@ npm i sushis
 - **📱 Responsive Nav**: Fluid navigation across devices.
 - **🍱 Quickstart**: Git clone, npm install, and run!
 - **🎉 Organized Structure**: Intuitive "modular" folder system.
+
+## In this Update
+
+See more info about the update [here](./docs/UPDATES.md)
+
+- [x] 3.0.0 LTS
+
+ - We adapted the ´<a>´ into ´<Link>´, now is `<p>` instead of `<a>`.
+ - src is replaced by pages
+ - components are no longer in the src folder, they are in the ui folder.
+ - ui components are now in 2 folders, "common" and "uncommon" parts.
+ - Important staff is at the top.
+ - Dependencies and devDependencies are updated.
+ - `React-Use` is no longer used.
+An LTS version is delivered every 6 months, and a Minor version is delivered at anytime. The LTS version is supported for 18 months, and the Minor versions is constantly updated.
 
 ### Agile with NextJS
 
@@ -178,6 +199,17 @@ Take a look into the following directory structure:
 ```
 
 [Go to top 🔼](#table-of-contents)
+
+## About LTS (Long Term Support)
+
+### What is the difference between LTS and Minor versions?
+
+The LTS version is a major dependencies and devDependencies update, and the Minor version is a security update, bug fix, and possible new features.
+
+### The Continuum LTS (Long Term Support) Schedule
+
+- 3.0.0: 1st to 15th of August 2023
+- 3.0.1/2/3/.../9: 15st to 1st of November 2023
 
 ## 🤝 Contribute
 
