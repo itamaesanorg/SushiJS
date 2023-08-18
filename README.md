@@ -134,16 +134,6 @@ NRN stands for Next Right Now, and x2 symbolizes the integration of SushiJS Agil
 
 ## Directories
 
-```bash
-🍣 SUSHIJS FRAMEWORK
-🔪---fonts
-🔪---lib
-🔪---pages
-🔪---static
-🔪---styles
-🔪---ui
-```
-
 ### HowTo
 
     01: 🍚, Cook rice. <- Prepare all your pages.
