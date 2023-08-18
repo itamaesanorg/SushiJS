@@ -2,7 +2,7 @@
 
 # 🍣 Sushis Framework aka SushiJS
 
-A revolutionary framework blending Typescript, NextJS, TailwindCSS, and Framer Motion, founded on Agile principles. Introducing **NRNx2** — the evolution of Next Right Now. Crafted by the brilliant Harvard University student of Project Management, Miguel Gargallo, [@miguelgargallo](https://github.com/miguelgargallo). Brought to you by [ITAMAESAN ORG](https://itamaesan.org) — leading the development industry with Agile and Project Management methodologies.
+A revolutionary framework blending Typescript, NextJS, TailwindCSS, and Framer Motion, founded on Agile principles. Introducing **NRNx2** — the evolution of Next Right Now. Crafted by the brilliant Harvard University student of Project Management, Miguel Gargallo, [@miguelgargallo](https://github.com/miguelgargallo). Brought to you by [ITAMAESAN ORG](https://itamaesan.org) — leading the development industry with Agile and Project Management methodologies
 
 ![The main idea](./docs/assets/screens/structure.png)
 
