@@ -1,3 +1,6 @@
+> [!WARNING]  
+> We have only 1 official domain: is itamaesan.org, anything else is non official.
+
 ![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://raw.githubusercontent.com/itamaesanorg/presskit/main/SushiJS.png)
 
 # 🍣 Sushis Framework aka SushiJS
