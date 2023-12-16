@@ -1,5 +1,6 @@
 > [!WARNING]  
 > We have only 1 official domain: is itamaesan.org, anything else is non official.
+> Don't worry because we just replace some links on menu and footer and delete non used files since 6 months ago.
 
 ![ITAMAESAN SushiJS Wallpaper Best Light NNextJS Framework with Husky fixed](https://raw.githubusercontent.com/itamaesanorg/presskit/main/SushiJS.png)
 
