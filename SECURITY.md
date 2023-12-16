@@ -1,5 +1,12 @@
 # Security Policy
 
+## Domain Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| itamaesan.org   | :white_check_mark: |
+| antyhing else | :x:                |
+
 ## Supported Versions
 
 Use this section to tell people about which versions of your project are
