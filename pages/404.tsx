@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Meta />
-      <Sushisho />º
+      <Sushisho />
       <Sushiten />
       <CoolErrorExport />
       <Footer />

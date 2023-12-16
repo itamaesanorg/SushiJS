@@ -29,12 +29,12 @@ export default function Footer() {
         <div className='flex flex-col space-y-4'>
           <p className='text-gray-500 hover:text-gray-600 transition'
           >&gt; 600/month on npm 🎉</p>
-        <ExternalLink href='https://www.npmjs.com/package/sushis'>npm i sushis</ExternalLink>
-        <ExternalLink href='https://www.npmjs.com/package/sushis-demo'>npm i sushis-demo</ExternalLink>
+          <ExternalLink href='https://www.npmjs.com/package/sushis'>npm i sushis</ExternalLink>
+          <ExternalLink href='https://www.npmjs.com/package/sushis-demo'>npm i sushis-demo</ExternalLink>
         </div>
         <div className='flex flex-col space-y-4'>
-        <ExternalLink href='https://github.com/itamaesanorg'>GitHub</ExternalLink>
-        <ExternalLink href='https://bcnhostess.com'>Use Case</ExternalLink>
+          <ExternalLink href='https://github.com/itamaesanorg'>GitHub</ExternalLink>
+          <ExternalLink href='https://itamaesan.org'>Use Case</ExternalLink>
           <Link href='/404'><p className='text-gray-500 hover:text-gray-600 transition'>404</p></Link>
         </div>
       </div>

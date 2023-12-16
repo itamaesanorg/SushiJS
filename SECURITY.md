@@ -2,9 +2,9 @@
 
 ## Domain Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| itamaesan.org   | :white_check_mark: |
+| Version       | Supported          |
+| ------------- | ------------------ |
+| itamaesan.org | :white_check_mark: |
 | antyhing else | :x:                |
 
 ## Supported Versions

@@ -11,33 +11,44 @@ export default function Sushisho() {
         transition={{ duration: 0.5 }}
       >
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://wri.sushijs.com/'
-           className='visible'
-           target='_blank'
-           rel='noreferrer'
-         >   
+          <Link href='/'
+            className='visible'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p className='hover:text-primary transition-all cursor-pointer'>
+              Home
+            </p>
+          </Link>
+        </div>
+        <div className='flex flex-row gap-1 text-tertiary'>
+          <Link href='https://wri.vercel.app/'
+            className='visible'
+            target='_blank'
+            rel='noreferrer'
+          >
             <p className='hover:text-primary transition-all cursor-pointer'>
               💎 Wri
             </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://helpdesk.sushijs.com/'
-           className='visible'
-           target='_blank'
-           rel='noreferrer'
-         >
+          <Link href='https://helpdesksushijs.vercel.app/'
+            className='visible'
+            target='_blank'
+            rel='noreferrer'
+          >
             <p className='hover:text-primary transition-all cursor-pointer'>
               📃 Helpdesk
             </p>
           </Link>
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='https://github.com/itamaesanorg/Giveaway-Tool'
-           className='visible'
-           target='_blank'
-           rel='noreferrer'
-         >
+          <Link href='https://giveawaytool.vercel.app/'
+            className='visible'
+            target='_blank'
+            rel='noreferrer'
+          >
             <p className='hover:text-primary transition-all cursor-pointer'>
               🪅 GiveAway Tool
             </p>
@@ -45,11 +56,11 @@ export default function Sushisho() {
         </div>
         <div className='flex flex-row gap-1 text-tertiary'>
           <Link href='https://twitter.com/itamaesanorg'
-           className='visible'
-           target='_blank'
-           rel='noreferrer'
-         >
-          <p className='hover:text-primary transition-all cursor-pointer'>
+            className='visible'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p className='hover:text-primary transition-all cursor-pointer'>
               🐦 Twitter
             </p>
           </Link>
